@@ -51,6 +51,9 @@ mosquitto/log/
 firebase-debug.log
 .firebase/
 
+# Android App (excluded from Git)
+android_app/
+
 # Temporary files
 *.tmp
 *.temp
