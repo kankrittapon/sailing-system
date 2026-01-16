@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.yart.livekit-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "com.yart.livekit-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.yart.livekit-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.yart.livekit-main-44:/layout/activity_main.xml"
+    }
+]

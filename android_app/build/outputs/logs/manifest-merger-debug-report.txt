@@ -1,0 +1,645 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c656eec573e1706c78daa21d670f237c\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5e00f626b2b950af2f602e73584cc21f\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\a01b36b83903ec271a6d7032067adc73\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\24961bca0290488d700bdd1d2c53cf32\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.pedroSG94.RootEncoder:extra-sources:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\8aba8de9a1e1c40cac9e9a646752b186\transformed\jetified-extra-sources-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:24:1-46:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\818440df55c5b22950fdce982f2f1b19\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7cc6933a09eed9be3241c15c5f299ccd\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e37779ef15641880c02179836f16f1da\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ca43a54a095869e8fc5657d0a6741871\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\3c5ab4d0d5ccfad4340ad8f9270befc0\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.github.pedroSG94.RootEncoder:library:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\81095108e7210b69c97ac31ea8be3d66\transformed\jetified-library-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.pedroSG94.RootEncoder:encoder:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\af08deed151823f6b91723d73c5ee338\transformed\jetified-encoder-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.pedroSG94.RootEncoder:rtmp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\67cec6766f3eac9f697e804d5f51444a\transformed\jetified-rtmp-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.pedroSG94.RootEncoder:rtsp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2a4bf85a503852d3bf66c73d0b60f1b7\transformed\jetified-rtsp-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.pedroSG94.RootEncoder:udp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0c948737307d1d1ffb8c46fad34bba53\transformed\jetified-udp-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.pedroSG94.RootEncoder:srt:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\08eefedd1cd09c3e96d0f890151f581f\transformed\jetified-srt-2.5.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.pedroSG94.RootEncoder:common:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\45f512cfbf966ca13277dfadc3214a52\transformed\jetified-common-2.5.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\6b7a8e36d6dbf339aec1380b4c4e8aa7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\eb872e1c52f2657c32b2dca9f1f7b096\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\fcf32231a46dc82715ef3e1ce5a99d60\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\27a03a4e07c00e27e7b038c7c131ce2c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\769fe60dc4d5b71d723f7f8d3eeab412\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7d7fd40c95e4affce9b296d98c5ba8aa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\dfd13a6e96737b103610822f40311c66\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\50068465fd0bb4cd6f04a27e4e9d351b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\f6ac8f4262aa58d0272e2e5ea240d2b1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7603b0d45516a0cd7dc743ea0218e3b7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c7d9851b78b1c2503cce6d3d3e7fc5f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\55be7ba9ddce7a93171c36bafc692331\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1693b9e5d6854f79b950d6df03b57f90\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b1754d9415e8ee2e02f1aafa72634e80\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\3909f08d2629f86d3ddfcee168293013\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\f35ba53031e2eb58f90defa1962cdd77\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ef156a68ae418b800428ea452e38bc4e\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b98d48a8ccf95ec74f4fb8d37c3fabe2\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11894a22e3c38fd4ae2135dcfd83fe4e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\54553d7117a5f7631e10d00dabf0b3f5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\01c64e133ee4c4c742adbfc8cb12fef4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\70fd334f038e6088091ff03a5c9adef9\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7b13904a53ace6cc1e8f93a052b17cc9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\dba95b7cf1dfaa6e7b48ea2eed06feaa\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2d9a321b1f89eb43f1d14aaafcd0039c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5f8e7eb81826db5fd17717c04eacc7f2\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10bd217769977fb855ffaa9020e493ef\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4eb33b352520fdbc68b03b81c9bbb9b3\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\852125d9013c7dc8f71f98146d5b02cb\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ajalt:timberkt:1.5.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\bf96038fc591bebb5a858eac8d4ff453\transformed\jetified-timberkt-1.5.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e1330743f6d006ba5e55c52dd72a1796\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\9c406f22b097e9e801a66122e0243e1c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5d36b42f5b2128e56118ca54e62e7b47\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\74a4515ced084b955fb0f084adcf6d9a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\02fe049997f1bc54a40415081b97883f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\df4bb1e15d33ba6a5d4f0a6ac8857bbf\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d3f9afc9d2e19fc37042c97b9ab641c3\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2633b50e73e99e24c7cb36530b4811af\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\97ec8160cbed93f2005eb995d7d1283b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\69672cfe8f8af1ef9fe8f57b020e2954\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c23eec21750b23a5497c695e93800d88\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0f56f7902729ad953ecdffbe940d7f82\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.webrtc-sdk:android-prefixed:114.5735.07] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\19fb4df0525172785549bfac0258f4a2\transformed\jetified-android-prefixed-114.5735.07\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10e197f6181689fada6b6e89f832d7e7\transformed\jetified-timber-4.7.0\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:23:5-67
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:7:5-65
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:31:5-65
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:31:5-65
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:25:5-65
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:8:5-71
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:32:5-71
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:32:5-71
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:24:5-71
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:22:5-79
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:10:5-77
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:36:5-77
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:36:5-77
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:26:5-77
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:10:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:12:22-74
+uses-feature#android.hardware.camera
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:15:19-67
+application
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:17:5-50:19
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:17:5-50:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5e00f626b2b950af2f602e73584cc21f\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5e00f626b2b950af2f602e73584cc21f\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\a01b36b83903ec271a6d7032067adc73\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\a01b36b83903ec271a6d7032067adc73\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:43:5-44:19
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:43:5-44:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e37779ef15641880c02179836f16f1da\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e37779ef15641880c02179836f16f1da\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ca43a54a095869e8fc5657d0a6741871\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ca43a54a095869e8fc5657d0a6741871\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:28:5-34:19
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:28:5-34:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10bd217769977fb855ffaa9020e493ef\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10bd217769977fb855ffaa9020e493ef\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\74a4515ced084b955fb0f084adcf6d9a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\74a4515ced084b955fb0f084adcf6d9a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10e197f6181689fada6b6e89f832d7e7\transformed\jetified-timber-4.7.0\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10e197f6181689fada6b6e89f832d7e7\transformed\jetified-timber-4.7.0\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:24:9-37
+	android:fullBackupContent
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:22:9-54
+	android:roundIcon
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:25:9-50
+	android:icon
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:23:9-45
+	android:allowBackup
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:19:9-35
+	tools
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:28:9-29
+	android:theme
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:27:9-49
+	android:dataExtractionRules
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:21:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:20:9-44
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:18:9-47
+activity#com.yart.livekit.LoginActivity
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:30:9-38:20
+	android:screenOrientation
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:33:13-49
+	android:exported
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:31:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:36:27-74
+activity#com.yart.livekit.MainActivity
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:40:9-43:53
+	android:screenOrientation
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:43:13-50
+	android:exported
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:41:13-41
+service#com.yart.livekit.StreamingService
+ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:45:9-49:54
+	android:enabled
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:47:13-35
+	android:exported
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:48:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:49:13-51
+	android:name
+		ADDED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:46:13-45
+uses-sdk
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c656eec573e1706c78daa21d670f237c\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c656eec573e1706c78daa21d670f237c\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5e00f626b2b950af2f602e73584cc21f\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5e00f626b2b950af2f602e73584cc21f\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\a01b36b83903ec271a6d7032067adc73\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\a01b36b83903ec271a6d7032067adc73\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\24961bca0290488d700bdd1d2c53cf32\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\24961bca0290488d700bdd1d2c53cf32\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:extra-sources:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\8aba8de9a1e1c40cac9e9a646752b186\transformed\jetified-extra-sources-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:extra-sources:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\8aba8de9a1e1c40cac9e9a646752b186\transformed\jetified-extra-sources-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:27:5-29:41
+MERGED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:27:5-29:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\818440df55c5b22950fdce982f2f1b19\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\818440df55c5b22950fdce982f2f1b19\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7cc6933a09eed9be3241c15c5f299ccd\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7cc6933a09eed9be3241c15c5f299ccd\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e37779ef15641880c02179836f16f1da\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e37779ef15641880c02179836f16f1da\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ca43a54a095869e8fc5657d0a6741871\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ca43a54a095869e8fc5657d0a6741871\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\3c5ab4d0d5ccfad4340ad8f9270befc0\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\3c5ab4d0d5ccfad4340ad8f9270befc0\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:library:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\81095108e7210b69c97ac31ea8be3d66\transformed\jetified-library-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:library:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\81095108e7210b69c97ac31ea8be3d66\transformed\jetified-library-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:encoder:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\af08deed151823f6b91723d73c5ee338\transformed\jetified-encoder-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:encoder:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\af08deed151823f6b91723d73c5ee338\transformed\jetified-encoder-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:rtmp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\67cec6766f3eac9f697e804d5f51444a\transformed\jetified-rtmp-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:rtmp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\67cec6766f3eac9f697e804d5f51444a\transformed\jetified-rtmp-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:rtsp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2a4bf85a503852d3bf66c73d0b60f1b7\transformed\jetified-rtsp-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:rtsp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2a4bf85a503852d3bf66c73d0b60f1b7\transformed\jetified-rtsp-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:udp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0c948737307d1d1ffb8c46fad34bba53\transformed\jetified-udp-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:udp:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0c948737307d1d1ffb8c46fad34bba53\transformed\jetified-udp-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:srt:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\08eefedd1cd09c3e96d0f890151f581f\transformed\jetified-srt-2.5.2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:srt:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\08eefedd1cd09c3e96d0f890151f581f\transformed\jetified-srt-2.5.2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:common:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\45f512cfbf966ca13277dfadc3214a52\transformed\jetified-common-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [com.github.pedroSG94.RootEncoder:common:2.5.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\45f512cfbf966ca13277dfadc3214a52\transformed\jetified-common-2.5.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\6b7a8e36d6dbf339aec1380b4c4e8aa7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\6b7a8e36d6dbf339aec1380b4c4e8aa7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\eb872e1c52f2657c32b2dca9f1f7b096\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\eb872e1c52f2657c32b2dca9f1f7b096\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\fcf32231a46dc82715ef3e1ce5a99d60\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\fcf32231a46dc82715ef3e1ce5a99d60\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\27a03a4e07c00e27e7b038c7c131ce2c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\27a03a4e07c00e27e7b038c7c131ce2c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\769fe60dc4d5b71d723f7f8d3eeab412\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\769fe60dc4d5b71d723f7f8d3eeab412\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7d7fd40c95e4affce9b296d98c5ba8aa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7d7fd40c95e4affce9b296d98c5ba8aa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\dfd13a6e96737b103610822f40311c66\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\dfd13a6e96737b103610822f40311c66\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\50068465fd0bb4cd6f04a27e4e9d351b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\50068465fd0bb4cd6f04a27e4e9d351b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\f6ac8f4262aa58d0272e2e5ea240d2b1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\f6ac8f4262aa58d0272e2e5ea240d2b1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7603b0d45516a0cd7dc743ea0218e3b7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7603b0d45516a0cd7dc743ea0218e3b7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c7d9851b78b1c2503cce6d3d3e7fc5f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c7d9851b78b1c2503cce6d3d3e7fc5f3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\55be7ba9ddce7a93171c36bafc692331\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\55be7ba9ddce7a93171c36bafc692331\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1693b9e5d6854f79b950d6df03b57f90\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1693b9e5d6854f79b950d6df03b57f90\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b1754d9415e8ee2e02f1aafa72634e80\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b1754d9415e8ee2e02f1aafa72634e80\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\3909f08d2629f86d3ddfcee168293013\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\3909f08d2629f86d3ddfcee168293013\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\f35ba53031e2eb58f90defa1962cdd77\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\f35ba53031e2eb58f90defa1962cdd77\transformed\jetified-camera-lifecycle-1.3.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ef156a68ae418b800428ea452e38bc4e\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\ef156a68ae418b800428ea452e38bc4e\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b98d48a8ccf95ec74f4fb8d37c3fabe2\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b98d48a8ccf95ec74f4fb8d37c3fabe2\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11894a22e3c38fd4ae2135dcfd83fe4e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11894a22e3c38fd4ae2135dcfd83fe4e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\54553d7117a5f7631e10d00dabf0b3f5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\54553d7117a5f7631e10d00dabf0b3f5\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\01c64e133ee4c4c742adbfc8cb12fef4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\01c64e133ee4c4c742adbfc8cb12fef4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\70fd334f038e6088091ff03a5c9adef9\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\70fd334f038e6088091ff03a5c9adef9\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7b13904a53ace6cc1e8f93a052b17cc9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\7b13904a53ace6cc1e8f93a052b17cc9\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\dba95b7cf1dfaa6e7b48ea2eed06feaa\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\dba95b7cf1dfaa6e7b48ea2eed06feaa\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2d9a321b1f89eb43f1d14aaafcd0039c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2d9a321b1f89eb43f1d14aaafcd0039c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5f8e7eb81826db5fd17717c04eacc7f2\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5f8e7eb81826db5fd17717c04eacc7f2\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10bd217769977fb855ffaa9020e493ef\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10bd217769977fb855ffaa9020e493ef\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4eb33b352520fdbc68b03b81c9bbb9b3\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4eb33b352520fdbc68b03b81c9bbb9b3\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\852125d9013c7dc8f71f98146d5b02cb\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\852125d9013c7dc8f71f98146d5b02cb\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.ajalt:timberkt:1.5.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\bf96038fc591bebb5a858eac8d4ff453\transformed\jetified-timberkt-1.5.1\AndroidManifest.xml:7:5-43
+MERGED from [com.github.ajalt:timberkt:1.5.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\bf96038fc591bebb5a858eac8d4ff453\transformed\jetified-timberkt-1.5.1\AndroidManifest.xml:7:5-43
+MERGED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e1330743f6d006ba5e55c52dd72a1796\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e1330743f6d006ba5e55c52dd72a1796\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\9c406f22b097e9e801a66122e0243e1c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\9c406f22b097e9e801a66122e0243e1c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5d36b42f5b2128e56118ca54e62e7b47\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5d36b42f5b2128e56118ca54e62e7b47\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\74a4515ced084b955fb0f084adcf6d9a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\74a4515ced084b955fb0f084adcf6d9a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\02fe049997f1bc54a40415081b97883f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\02fe049997f1bc54a40415081b97883f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\df4bb1e15d33ba6a5d4f0a6ac8857bbf\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\df4bb1e15d33ba6a5d4f0a6ac8857bbf\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d3f9afc9d2e19fc37042c97b9ab641c3\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d3f9afc9d2e19fc37042c97b9ab641c3\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2633b50e73e99e24c7cb36530b4811af\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\2633b50e73e99e24c7cb36530b4811af\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\97ec8160cbed93f2005eb995d7d1283b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\97ec8160cbed93f2005eb995d7d1283b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\69672cfe8f8af1ef9fe8f57b020e2954\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\69672cfe8f8af1ef9fe8f57b020e2954\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c23eec21750b23a5497c695e93800d88\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c23eec21750b23a5497c695e93800d88\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0f56f7902729ad953ecdffbe940d7f82\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0f56f7902729ad953ecdffbe940d7f82\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.github.webrtc-sdk:android-prefixed:114.5735.07] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\19fb4df0525172785549bfac0258f4a2\transformed\jetified-android-prefixed-114.5735.07\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.webrtc-sdk:android-prefixed:114.5735.07] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\19fb4df0525172785549bfac0258f4a2\transformed\jetified-android-prefixed-114.5735.07\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10e197f6181689fada6b6e89f832d7e7\transformed\jetified-timber-4.7.0\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\10e197f6181689fada6b6e89f832d7e7\transformed\jetified-timber-4.7.0\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:33:5-82
+	android:name
+		ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:33:22-79
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:34:5-80
+	android:name
+		ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:34:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:35:22-78
+uses-feature#android.hardware.usb.host
+ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:38:5-62
+	android:name
+		ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:38:19-59
+uses-feature#0x00020000
+ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:39:5-41:35
+	android:glEsVersion
+		ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:40:9-41
+	android:required
+		ADDED from [com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:41:9-32
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:10:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:13:17-127
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+service#io.livekit.android.room.track.screencapture.ScreenCaptureService
+ADDED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:29:9-33:43
+	android:enabled
+		ADDED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:31:13-35
+	android:stopWithTask
+		ADDED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:33:13-40
+	android:foregroundServiceType
+		ADDED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:32:13-60
+	android:name
+		ADDED from [io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:30:13-92
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d9666d9c3f07a7f9ae01318d4ab274fb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b334579631075f3bef71a2c8ff7616eb\transformed\jetified-camera-core-1.3.4\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.yart.livekit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.yart.livekit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:10:9-52
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:22-77
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yart.livekit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:7:5-65
+12-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:8:5-71
+13-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:8:22-68
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:10:5-77
+15-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:10:22-74
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:11:5-68
+16-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:12:5-77
+17-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:12:22-74
+18
+19    <uses-feature android:name="android.hardware.camera" />
+19-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:14:5-60
+19-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:14:19-57
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:15:5-70
+20-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:15:19-67
+21
+22    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+22-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:33:5-82
+22-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:33:22-79
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:34:5-80
+23-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:34:22-77
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:35:5-81
+24-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:35:22-78
+25
+26    <uses-feature android:name="android.hardware.usb.host" />
+26-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:38:5-62
+26-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:38:19-59
+27    <uses-feature
+27-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:39:5-41:35
+28        android:glEsVersion="0x00020000"
+28-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:40:9-41
+29        android:required="true" />
+29-->[com.herohan:UVCAndroid:1.0.7] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\4ec32871ca71cdf5aa819be518bece39\transformed\jetified-UVCAndroid-1.0.7\AndroidManifest.xml:41:9-32
+30
+31    <permission
+31-->[androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+32        android:name="com.yart.livekit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.yart.livekit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+36    <uses-permission
+36-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:9:5-11:38
+37        android:name="android.permission.BLUETOOTH"
+37-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:10:9-52
+38        android:maxSdkVersion="30" />
+38-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:11:9-35
+39    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+39-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:5-80
+39-->[com.github.davidliu:audioswitch:89582c47c9a04c62f90aa5e57251af4800a62c9a] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\1c687f375149efb296cc690d6c881cc3\transformed\jetified-audioswitch-89582c47c9a04c62f90aa5e57251af4800a62c9a\AndroidManifest.xml:12:22-77
+40
+41    <application
+41-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:17:5-50:19
+42        android:name="com.yart.livekit.SRTStreamerApplication"
+42-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:18:9-47
+43        tools="targetApi=31"
+43-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:28:9-29
+44        android:allowBackup="true"
+44-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:19:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.13.1] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\cef816511ea471ee061a42cbdef31dfc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+46        android:dataExtractionRules="@xml/data_extraction_rules"
+46-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:21:9-65
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:fullBackupContent="@xml/backup_rules"
+49-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:22:9-54
+50        android:icon="@drawable/ic_launcher"
+50-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:23:9-45
+51        android:label="SRT Streamer"
+51-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:24:9-37
+52        android:roundIcon="@drawable/ic_launcher"
+52-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:25:9-50
+53        android:supportsRtl="true"
+53-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:26:9-35
+54        android:theme="@style/Theme.SRTStreamer"
+54-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:27:9-49
+55        android:usesCleartextTraffic="true" >
+55-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:20:9-44
+56        <activity
+56-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:30:9-38:20
+57            android:name="com.yart.livekit.LoginActivity"
+57-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:31:13-42
+58            android:exported="true"
+58-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:32:13-36
+59            android:screenOrientation="portrait" >
+59-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:33:13-49
+60            <intent-filter>
+60-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:34:13-37:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:35:17-69
+61-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:35:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:36:17-77
+63-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:36:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:40:9-43:53
+67            android:name="com.yart.livekit.MainActivity"
+67-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:41:13-41
+68            android:exported="false"
+68-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:42:13-37
+69            android:screenOrientation="landscape" />
+69-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:43:13-50
+70
+71        <service
+71-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:45:9-49:54
+72            android:name="com.yart.livekit.StreamingService"
+72-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:46:13-45
+73            android:enabled="true"
+73-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:47:13-35
+74            android:exported="false"
+74-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:48:13-37
+75            android:foregroundServiceType="camera" />
+75-->C:\Users\telep\sailing-system\android_app\src\main\AndroidManifest.xml:49:13-51
+76        <service
+76-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:10:13-84
+78            android:directBootAware="true"
+78-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+79            android:exported="false" >
+79-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:11:13-37
+80            <meta-data
+80-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
+81-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:13:17-127
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database-ktx:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\187f108300396c85f9daf90997a211fe\transformed\jetified-firebase-database-ktx-20.3.0\AndroidManifest.xml:14:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+84                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+84-->[com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+87-->[com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-database:20.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\11ee46eb6e4b19adef57213477de76d8\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+90                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+90-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\b9c49733b5df4f58897df8c3de260e68\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+93                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+93-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+95        </service>
+96
+97        <provider
+97-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+98            android:name="com.google.firebase.provider.FirebaseInitProvider"
+98-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+99            android:authorities="com.yart.livekit.firebaseinitprovider"
+99-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+101            android:exported="false"
+101-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+102            android:initOrder="100" />
+102-->[com.google.firebase:firebase-common:20.4.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\454d4095aa615a9614a381342fb1fd7e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+103
+104        <activity
+104-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\d1317cf0da892e022415da0a957aafb7\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+108
+109        <service
+109-->[io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:29:9-33:43
+110            android:name="io.livekit.android.room.track.screencapture.ScreenCaptureService"
+110-->[io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:30:13-92
+111            android:enabled="true"
+111-->[io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:31:13-35
+112            android:foregroundServiceType="mediaProjection"
+112-->[io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:32:13-60
+113            android:stopWithTask="true" />
+113-->[io.livekit:livekit-android:2.0.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\0182c391c9cffe8388d5d2cf5575ca00\transformed\jetified-livekit-android-2.0.0\AndroidManifest.xml:33:13-40
+114
+115        <provider
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+116            android:name="androidx.startup.InitializationProvider"
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+117            android:authorities="com.yart.livekit.androidx-startup"
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+118            android:exported="false" >
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\5ac437853ce22cc4f70dc376ad89b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\c4e65c45bec527a4a45d03673ca2cb12\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+127                android:value="androidx.startup" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+128        </provider>
+129
+130        <service
+130-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+131            android:name="androidx.camera.core.impl.MetadataHolderService"
+131-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+132            android:enabled="false"
+132-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+133            android:exported="false" >
+133-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+134            <meta-data
+134-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+135                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+135-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+136                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+136-->[androidx.camera:camera-camera2:1.3.4] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\e8115bc2ea159f706a8f8db81640d1eb\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+137        </service>
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\71b5002d86517641d7767f8c9bf4e899\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+142
+143        <receiver
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+144            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+145            android:directBootAware="false"
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+146            android:enabled="true"
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+147            android:exported="true"
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+148            android:permission="android.permission.DUMP" >
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+150                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+153                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+156                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+159                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\telep\.gradle\caches\9.0-milestone-1\transforms\95534bd726c5df624a9db169c954d74b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+160            </intent-filter>
+161        </receiver>
+162    </application>
+163
+164</manifest>

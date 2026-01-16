@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Camera Preview (Full Screen) -->
+    <com.pedro.library.view.OpenGlView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Controls Overlay -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp"
+        android:background="#20000000"> <!-- Semi-transparent background for readability -->
+
+        <EditText
+            android:id="@+id/etServerIp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Server IP Address (e.g., 192.168.1.5)"
+            android:inputType="number|textUri"
+            android:text="192.168.1.100"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#CCCCCC"
+            android:background="#80000000"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Start Stream"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Stop Stream"
+            android:backgroundTint="#F44336"
+            android:enabled="false"/>
+
+        <Button
+            android:id="@+id/btnSwitchCamera"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Switch Camera"
+            android:backgroundTint="#2196F3"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "689634907368",
+    "firebase_url": "https://yrat-livekit-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yrat-livekit",
+    "storage_bucket": "yrat-livekit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689634907368:android:46e494b523fd071d21655d",
+        "android_client_info": {
+          "package_name": "com.yart.livekit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689634907368-u00piujafd8t0nqopan1n94de6qkfiav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDvDE8oeUR2t9GJ75StPp4GxXTn7qe8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689634907368-u00piujafd8t0nqopan1n94de6qkfiav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
