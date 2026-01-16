@@ -55,9 +55,11 @@ function VideoView({ roomId }: { roomId: string }) {
     );
 }
 
-export default function LivePage() {
+import { Suspense } from 'react';
+
+function LiveContent() {
     const searchParams = useSearchParams();
-    const roomId = searchParams.get('room') || searchParams.get('boat'); // Support both for backward compatibility
+    const roomId = searchParams.get('room') || searchParams.get('boat');
 
     const [token, setToken] = useState('');
     const [url, setUrl] = useState('');
@@ -102,7 +104,7 @@ export default function LivePage() {
     return (
         <LiveKitRoom
             video={false}
-            audio={true}
+            audio={false}
             token={token}
             serverUrl={url}
             data-lk-theme="default"
@@ -111,4 +113,12 @@ export default function LivePage() {
             <VideoView roomId={roomId} />
         </LiveKitRoom>
     );
+}
+
+export default function LivePage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LiveContent />
+    </Suspense>
+  );
 }

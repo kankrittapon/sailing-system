@@ -1,5 +1,5 @@
 // lib/livekit.ts - LiveKit Server SDK Helper
-import { IngressClient } from 'livekit-server-sdk';
+import { IngressClient, IngressInput } from 'livekit-server-sdk';
 
 const LIVEKIT_API_KEY = process.env.LIVEKIT_API_KEY!;
 const LIVEKIT_API_SECRET = process.env.LIVEKIT_API_SECRET!;
@@ -9,15 +9,12 @@ export async function createSRTIngress(deviceId: string, roomName: string) {
     const ingressClient = new IngressClient(LIVEKIT_URL.replace('ws://', 'http://').replace('wss://', 'https://'), LIVEKIT_API_KEY, LIVEKIT_API_SECRET);
 
     try {
-        const options = {
-            inputType: 1, // SRT_INPUT = 1
+        const ingress = await ingressClient.createIngress(IngressInput.RTMP_INPUT, {
             name: `${deviceId}-ingress`,
             roomName: roomName,
             participantName: deviceId,
             participantIdentity: deviceId,
-        };
-
-        const ingress = await ingressClient.createIngress(options);
+        });
 
         return {
             ingressId: ingress.ingressId,

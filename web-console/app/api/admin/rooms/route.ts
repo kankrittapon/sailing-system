@@ -35,6 +35,7 @@ export async function POST(req: NextRequest) {
         const newRoom: Room = {
             id: roomId,
             name,
+            activeDeviceId: null,
             createdAt: Date.now(),
             createdBy,
             assignedDevices: []
