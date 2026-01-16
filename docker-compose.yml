@@ -51,13 +51,17 @@ services:
     restart: always
 
   # 5. FFmpeg Bridge (ตัวรับ SRT จากทะเล -> แปลงเป็น RTMP ส่งให้ Ingress)
-  ffmpeg-bridge:
-    image: jrottenberg/ffmpeg:latest
-    container_name: ffmpeg_bridge
-    # ใช้รูปแบบ String ปกติ ไม่ต้องมี [ ] เพื่อลดความสับสนเรื่องเครื่องหมายคอมมา
-    command: -fflags nobuffer -flags low_delay -i "srt://0.0.0.0:8885?mode=listener&latency=200000" -c:v copy -an -f flv -flvflags no_duration_filesize rtmp://livekit_ingress:1935/live/TWcNGriT4xNJ
+  # 5. SRT Gateway (Mediamtx) - รับ SRT จากเรือ -> ส่งต่อ RTMP เข้า LiveKit
+  srt-gateway:
+    image: bluenviron/mediamtx:latest-ffmpeg
+    container_name: srt_gateway
     ports:
-      - "8885:8885/udp"
+      - "8885:8885/udp" # SRT Port
+      - "8554:8554"     # RTSP Port (internal use for ffmpeg relay)
+    volumes:
+      - ./mediamtx.yml:/mediamtx.yml
+    environment:
+      MTX_PROTOCOLS: "udp,multicast,tcp"
     depends_on:
       - livekit-ingress
     restart: always
@@ -83,6 +87,7 @@ services:
       - NEXT_PUBLIC_LIVEKIT_URL=ws://localhost:7880
       - LIVEKIT_API_KEY=kanfullbuster_the_key_secure_32
       - LIVEKIT_API_SECRET=kanfullbuster_the_admin_secret_secure_32
+      - NEXT_PUBLIC_SERVER_IP=${NEXT_PUBLIC_SERVER_IP}
     depends_on:
       - livekit
       - redis

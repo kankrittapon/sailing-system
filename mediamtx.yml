@@ -1,0 +1,17 @@
+# mediamtx.yml - Configuration for SRT to RTMP Gateway
+
+paths:
+  all:
+    # When a stream is published via SRT (e.g. srt://host:8885?streamid=publish:STREAM_KEY),
+    # Mediamtx accepts it. We then use ffmpeg to relay it to LiveKit Ingress via RTMP.
+    # $MTX_PATH will be the STREAM_KEY.
+    runOnReady: ffmpeg -re -i rtsp://localhost:8554/$MTX_PATH -c copy -f flv rtmp://livekit_ingress:1935/live/$MTX_PATH
+    runOnReadyRestart: yes
+
+    # SRT Configuration
+    # Publish via srt://host:8885?streamid=publish:STREAM_KEY
+    # Read via srt://host:8885?streamid=read:STREAM_KEY
+
+# Enable SRT
+srt: yes
+srtAddress: :8885
