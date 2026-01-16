@@ -1,0 +1,4 @@
+[dotenv@17.2.3] injecting env (9) from .env.local -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+API Key: Found
+Secret: Found
+URL: ws://localhost:7880

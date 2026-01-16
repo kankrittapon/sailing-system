@@ -1,0 +1,14 @@
+port: 7880
+rtc:
+    node_ip: "192.168.1.37"
+    port_range_start: 50000
+    port_range_end: 50050
+    use_external_ip: false
+keys:
+    # Keys overridden by Docker Env, but keeping consistent
+    api_key: "kanfullbuster_the_key_secure_32"
+    api_secret: "kanfullbuster_the_admin_secret_secure_32"
+redis:
+    address: redis:6379
+ingress:
+  rtmp_base_url: 'rtmp://192.168.1.37:1935/live'

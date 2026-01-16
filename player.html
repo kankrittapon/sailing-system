@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailing System - Live Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/livekit-client/dist/livekit-client.umd.min.js"></script>
+    <style>
+        body { font-family: sans-serif; background: #111; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        #video-container { width: 80%; max-width: 1280px; aspect-ratio: 16/9; background: #000; border: 2px solid #333; position: relative; }
+        video { width: 100%; height: 100%; }
+        .controls { margin-top: 20px; text-align: center; }
+        input { padding: 8px; margin: 5px; width: 300px; background: #222; border: 1px solid #444; color: #fff; }
+        button { padding: 8px 16px; cursor: pointer; background: #007bff; color: white; border: none; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+
+    <h2>Live Stream Monitor</h2>
+    
+    <div id="video-container">
+        <!-- Video element will be attached here -->
+    </div>
+
+    <div class="controls">
+        <input type="text" id="token" placeholder="Paste Token Here">
+        <button onclick="connectToRoom()">Connect</button>
+    </div>
+
+    <script>
+        const wsUrl = "ws://localhost:7880";
+        let room;
+
+        async function connectToRoom() {
+            const token = document.getElementById('token').value;
+            if (!token) { alert("Please enter a token"); return; }
+
+            try {
+                room = new LivekitClient.Room({
+                    adaptiveStream: true,
+                    dynacast: true,
+                });
+
+                await room.connect(wsUrl, token);
+                console.log('Connected to room', room.name);
+
+                // Handle participants that are NOT me (remote cameras)
+                room.on(LivekitClient.RoomEvent.TrackSubscribed, (track, publication, participant) => {
+                    if (track.kind === LivekitClient.TrackKind.Video || track.kind === LivekitClient.TrackKind.Audio) {
+                        const element = track.attach();
+                        document.getElementById('video-container').appendChild(element);
+                    }
+                });
+                
+                // If there are already participants (in case we joined late)
+                room.remoteParticipants.forEach(participant => {
+                    participant.trackPublications.forEach(publication => {
+                        if (publication.isSubscribed) {
+                            const track = publication.track;
+                            const element = track.attach();
+                            document.getElementById('video-container').appendChild(element);
+                        }
+                    });
+                });
+
+            } catch (error) {
+                console.error('Failed to connect', error);
+                alert('Connection failed: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

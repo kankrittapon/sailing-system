@@ -1,0 +1,9 @@
+[dotenv@17.2.3] injecting env (9) from .env.local -- tip: ⚙️  enable debug logging with { debug: true }
+API Key: Found
+Secret: Found
+URL: ws://localhost:7880
+-------------------------------------------
+Ingress Created Successfully!
+Stream Key: Uj5adCeRgFKa
+URL: rtmp://192.168.1.37:1935/live
+-------------------------------------------

@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  # 1. MQTT Broker (สำหรับส่งข้อมูลเซนเซอร์จากเรือ)
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto_broker
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    restart: always
+
+  # 2. Redis
+  redis:
+    image: redis:7-alpine
+    container_name: livekit_redis
+    command: redis-server --appendonly yes
+    restart: always
+
+  # 3. LiveKit Server
+  livekit:
+    image: livekit/livekit-server:latest
+    container_name: livekit_server
+    command: --config /etc/livekit.yaml
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "50000-50050:50000-50050/udp"
+    volumes:
+      - ./livekit.yaml:/etc/livekit.yaml
+    environment:
+      LIVEKIT_KEYS: "kanfullbuster_the_key_secure_32: kanfullbuster_the_admin_secret_secure_32"
+    restart: always
+
+  # 4. LiveKit Ingress (ตัวรับ RTMP จาก Bridge ภายในเครื่อง)
+  livekit-ingress:
+    image: livekit/ingress:latest
+    container_name: livekit_ingress
+    command: --config /etc/ingress.yaml
+    volumes:
+      - ./ingress.yaml:/etc/ingress.yaml
+    ports:
+      - "1935:1935" # พอร์ต RTMP ภายใน
+    depends_on:
+      - livekit
+      - redis
+    restart: always
+
+  # 5. FFmpeg Bridge (ตัวรับ SRT จากทะเล -> แปลงเป็น RTMP ส่งให้ Ingress)
+  ffmpeg-bridge:
+    image: jrottenberg/ffmpeg:latest
+    container_name: ffmpeg_bridge
+    # ใช้รูปแบบ String ปกติ ไม่ต้องมี [ ] เพื่อลดความสับสนเรื่องเครื่องหมายคอมมา
+    command: -fflags nobuffer -flags low_delay -i "srt://0.0.0.0:8885?mode=listener&latency=200000" -c:v copy -an -f flv -flvflags no_duration_filesize rtmp://livekit_ingress:1935/live/TWcNGriT4xNJ
+    ports:
+      - "8885:8885/udp"
+    depends_on:
+      - livekit-ingress
+    restart: always
+
+  # 6. Web Console (Next.js)
+  web-console:
+    build:
+      context: ./web-console
+      dockerfile: Dockerfile
+    container_name: web_console
+    ports:
+      - "3000:3000"
+    environment:
+      # Firebase Config
+      - NEXT_PUBLIC_FIREBASE_API_KEY=${NEXT_PUBLIC_FIREBASE_API_KEY}
+      - NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=${NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}
+      - NEXT_PUBLIC_FIREBASE_PROJECT_ID=${NEXT_PUBLIC_FIREBASE_PROJECT_ID}
+      - NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=${NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET}
+      - NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID}
+      - NEXT_PUBLIC_FIREBASE_APP_ID=${NEXT_PUBLIC_FIREBASE_APP_ID}
+      - NEXT_PUBLIC_FIREBASE_DATABASE_URL=${NEXT_PUBLIC_FIREBASE_DATABASE_URL}
+      # LiveKit Config
+      - NEXT_PUBLIC_LIVEKIT_URL=ws://localhost:7880
+      - LIVEKIT_API_KEY=kanfullbuster_the_key_secure_32
+      - LIVEKIT_API_SECRET=kanfullbuster_the_admin_secret_secure_32
+    depends_on:
+      - livekit
+      - redis
+    restart: always
+    volumes:
+      - ./web-console:/app
+      - /app/node_modules
+      - /app/.next

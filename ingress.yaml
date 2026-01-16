@@ -1,0 +1,8 @@
+ws_url: "ws://livekit:7880"
+api_key: "kanfullbuster_the_key_secure_32"
+api_secret: "kanfullbuster_the_admin_secret_secure_32"
+redis:
+  address: "redis:6379"
+rtmp_port: 1935
+logging:
+  level: info
