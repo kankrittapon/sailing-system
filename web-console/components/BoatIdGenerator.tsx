@@ -24,7 +24,6 @@ export default function BoatIdGenerator({ onClose }: BoatIdGeneratorProps) {
                 // Pre-create device with placeholder
                 promises.push(set(deviceRef, {
                     id: boatId,
-                    macAddress: 'pending',
                     status: 'offline',
                     lastSeen: 0,
                     number: '',

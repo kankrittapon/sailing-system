@@ -50,66 +50,108 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // 2. Check if device exists
+    // 3. Check if device exists
     const deviceRef = ref(rtdb, `devices/${boatId}`);
-    const deviceSnap = await get(deviceRef);
     const deviceSnapshot = await get(deviceRef);
     const existingDevice = deviceSnapshot.exists() ? deviceSnapshot.val() as Device : null;
 
     if (existingDevice) {
-      // If device exists but MAC doesn't match, reject
-      if (existingDevice.macAddress !== macAddress) {
-        return NextResponse.json({
-          error: 'This Boat ID is already bound to another device'
-        }, { status: 403 });
+      // If device exists and has a macAddress
+      if (existingDevice.macAddress && existingDevice.macAddress !== '') {
+        // Check if MAC matches
+        if (existingDevice.macAddress !== macAddress) {
+          return NextResponse.json({
+            error: 'This Boat ID is already bound to another device'
+          }, { status: 403 });
+        }
       }
 
       // Update existing device with login log
-      await update(deviceRef, {
+      const updateData: any = {
+        macAddress: macAddress, // Bind MAC if not set
         lastSeen: Date.now(),
         status: 'online',
-        lastLoginAt: Date.now(),
-        lastLoginIp: req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip') || 'unknown'
-      });
-    } else {
-      // New device - create entry with login log
-      const newDevice: Device = {
-        id: boatId,
-        macAddress: macAddress,
-        status: 'online',
-        lastSeen: Date.now(),
         lastLoginAt: Date.now(),
         lastLoginIp: req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip') || 'unknown'
       };
-      await set(deviceRef, newDevice);
+
+      // Create SRT Ingress if device is assigned to room
+      let srtUrl = existingDevice.srtUrl;
+      let ingressId = existingDevice.ingressId;
+
+      if (existingDevice.roomId && !existingDevice.ingressId) {
+        try {
+          const { createSRTIngress } = await import('@/lib/livekit');
+          const ingress = await createSRTIngress(boatId, existingDevice.roomId);
+
+          // Build SRT URL
+          const serverIp = process.env.NEXT_PUBLIC_SERVER_IP || 'localhost';
+          srtUrl = `srt://${serverIp}:8885?streamid=${ingress.streamKey}`;
+          ingressId = ingress.ingressId;
+
+          updateData.ingressId = ingressId;
+          updateData.srtUrl = srtUrl;
+          updateData.streamKey = ingress.streamKey;
+        } catch (error) {
+          console.error('Failed to create ingress:', error);
+          // Continue without ingress - can be created later
+        }
+      }
+
+      await update(deviceRef, updateData);
+
+      // Generate LiveKit Token
+      const at = new AccessToken(
+        process.env.LIVEKIT_API_KEY!,
+        process.env.LIVEKIT_API_SECRET!,
+        {
+          identity: boatId,
+        }
+      );
+      at.addGrant({ roomJoin: true, room: existingDevice.roomId || '' });
+      const token = await at.toJwt();
+
+      return NextResponse.json({
+        success: true,
+        token,
+        wsUrl: process.env.NEXT_PUBLIC_LIVEKIT_URL!,
+        roomId: existingDevice.roomId,
+        srtUrl: srtUrl || null,
+        ingressId: ingressId || null,
+      });
     }
 
-    // 3. Get assigned room (or use device ID as fallback)
-    const roomId = existingDevice?.roomId || boatId;
+    // 4. New device - create entry with login log
+    const newDevice: Device = {
+      id: boatId,
+      macAddress,
+      status: 'online',
+      lastSeen: Date.now(),
+      lastLoginAt: Date.now(),
+      lastLoginIp: req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip') || 'unknown'
+    };
 
-    // 4. Generate LiveKit Token
-    const apiKey = process.env.LIVEKIT_API_KEY;
-    const apiSecret = process.env.LIVEKIT_API_SECRET;
-    const wsUrl = process.env.NEXT_PUBLIC_LIVEKIT_URL;
+    await set(deviceRef, newDevice);
 
-    if (!apiKey || !apiSecret || !wsUrl) {
-      return NextResponse.json({ error: 'Server misconfigured' }, { status: 500 });
-    }
-
-    const at = new AccessToken(apiKey, apiSecret, {
-      identity: boatId,
-    });
-
-    at.addGrant({
-      roomJoin: true,
-      room: roomId,  // Use assigned room instead of device ID
-      canPublish: true,
-      canSubscribe: true
-    });
-
+    // Generate LiveKit Token (no room yet)
+    const at = new AccessToken(
+      process.env.LIVEKIT_API_KEY!,
+      process.env.LIVEKIT_API_SECRET!,
+      {
+        identity: boatId,
+      }
+    );
     const token = await at.toJwt();
 
-    return NextResponse.json({ token, wsUrl, roomId });
+    return NextResponse.json({
+      success: true,
+      token,
+      wsUrl: process.env.NEXT_PUBLIC_LIVEKIT_URL!,
+      roomId: null,
+      srtUrl: null,
+      ingressId: null,
+      message: 'Device registered. Please assign to a room via Admin Console to get SRT streaming URL.'
+    });
 
   } catch (error) {
     console.error('Registration error:', error);

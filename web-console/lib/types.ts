@@ -12,6 +12,10 @@ export interface Device {
     // Login Log
     lastLoginAt?: number;   // Last login timestamp
     lastLoginIp?: string;   // Last login IP address
+    // SRT Ingress
+    ingressId?: string;     // LiveKit Ingress ID
+    srtUrl?: string;        // SRT streaming URL
+    streamKey?: string;     // SRT stream key (secret)
 }
 
 export interface Room {
